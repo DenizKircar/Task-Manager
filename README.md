@@ -18,7 +18,7 @@ A simple and efficient task manager to help you organize your daily activities. 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/DenizKircar/Task-Manager.git
    cd task-manager
    ```
 
@@ -32,30 +32,31 @@ A simple and efficient task manager to help you organize your daily activities. 
    npm start
    ```
 
-   The application will be accessible at `http://localhost:3000` by default. You can change the port in the configuration if needed.
-
 ## Usage
 
 1. **Add a Task:**
-   - Click on the "Add Task" button.
+   - Click on the "Add" button.
    - Fill in the task details such as title, description, and due date.
    - Click "Save" to add the task.
 
 2. **Edit a Task:**
-   - Click on the task you want to edit.
+   - Click on the three dots next to the task you want to edit.
    - Modify the task details.
-   - Click "Save" to update the task.
+   - Click "Add" once again to update the task.
 
-3. **Delete a Task:**
+4. **Delete a Task:**
+   - Click on the three dots next to the task you want to delete.
    - Click on the task you want to delete.
-   - Click "Delete" to remove the task.
+   - Click "Delete" to delete the task.
+   - Right clicking a task also deletes the task.
 
-4. **View Tasks by Completion:**
+6. **View Tasks by Completion:**
    - Use the filter options to display tasks based on their completion status.
+   - Click "Pending" to see the tasks that have not been checked yet.
+   - Click "Completed" to see the tasks that have been checked.
 
-5. **Display All Tasks:**
+7. **Display All Tasks:**
    - Click on the "All Tasks" option to view a complete list of tasks.
 
-## Contributing
-
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
+8. **Clear Task List**
+   - Click on the "Clear" button to clear the list of tasks.
